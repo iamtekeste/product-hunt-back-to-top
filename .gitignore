@@ -1,0 +1,4 @@
+npm-debug.log
+node_modules/
+extension/index.html
+extension/bundle.js

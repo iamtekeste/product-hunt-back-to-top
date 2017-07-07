@@ -1,0 +1,11 @@
+.tk-back-to-top {
+  background-color: #333;
+  border-radius: 50%;
+  bottom: 20px;
+  cursor: pointer;
+  height: 60px;
+  position: fixed;
+  right: 20px;
+  width: 60px;
+  z-index: 1;
+}
