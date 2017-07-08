@@ -4,11 +4,24 @@
   cursor: pointer;
   border-radius: 50%;
   height: 60px;
+  opacity: 0;
   overflow: hidden;
   position: fixed;
   right: 20px;
+  transition: all .2s ease-in;
   width: 60px;
+  visibility: hidden;
   z-index: 999999999999999; /* I am a mad lad 😎  */
+}
+.tk-back-to-top:hover {
+  opacity: 1;
+}
+.tk-back-to-top-is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+.tk-back-to-top-fade-out {
+  opacity: .5;
 }
 
 .tk-back-to-top img {

@@ -1,8 +1,8 @@
 {
   "name": "Product Hunt back to top button",
-  "description": "It adds a fun back to top button to Product Hunt.",
-  "version": "1.0",
-  "homepage_url": "https://github.com/iamtekeste/product-hunt-back-to-top",
+  "description": "It adds a fun back to top button to producthunt.com.",
+  "version": "0.0.0.1",
+  "homepage_url": "https://twitter.com/iamtekeste",
   "manifest_version": 2,
   "icons": {
     "128": "128-icon.png"
@@ -10,6 +10,9 @@
   "permissions": [
     "activeTab",
     "https://www.producthunt.com/*"
+  ],
+  "web_accessible_resources": [
+    "button.png"
   ],
   "content_scripts": [
       {
@@ -21,6 +24,7 @@
               "content.css"
           ],
           "js": [
+            "jquery-3.2.1.min.js",
             "bundle.js"
           ]
       }

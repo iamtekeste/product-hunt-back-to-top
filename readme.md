@@ -1,6 +1,8 @@
 # Back to Top button for [Product Hunt](https://www.producthunt.com/) :heart_eyes_cat: :sunglasses: :ok_hand:
 > Chrome extension that adds a fun back to top button
 
+![](http://i.imgur.com/c2xyJGS.gif)
+
 ## Why though?
 I just wanted to help out the Product Hunt dev team. :heart_eyes_cat:
 
